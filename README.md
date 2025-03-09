@@ -24,14 +24,14 @@ This Python script interacts with a SIP server API to perform authentication and
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/karan-modh-5/Kguascg.git
-   cd Kguascg
+   git clone https://github.com/karan-modh-5/Kguac.git
+   cd Kguac
 
 2. **Run the Script**
 
 Execute the Python script from your terminal or command prompt:
 
-    python kguascg.py -i <UCM IP> -u <API Username> -p <API Password>
+    python kguac.py -i <UCM IP> -u <API Username> -p <API Password>
 Alternatively, you can run without command-line arguments and provide inputs interactively.
 
 3. **Provide Input Details**
@@ -117,13 +117,13 @@ The script will display:
 To run the script, use the following command:
 
   ```bash
-    python kguascg.py -I <UCM IP Address> -P <UCM Port Number> -u <API Username> -p <API Password>
+    python kguac.py -I <UCM IP Address> -P <UCM Port Number> -u <API Username> -p <API Password>
   ```
 
 ### Example
 Here is an example of how the script might be executed:
 
-    python kguascg.py -i 192.168.43.160 -u cdrapi -p cdrapi123
+    python kguac.py -i 192.168.43.160 -u cdrapi -p cdrapi123
 If run interactively:
 
     Enter SIP server IP address: 192.168.43.160
@@ -157,6 +157,6 @@ Inspiration from other SIP API scripts and tools.
 ---
 
 ## Download
-[Kguascg.py](https://karan-modh.tech/download/Kguascg.py)
+[Kguac.py](https://karan-modh.tech/download/kguac.py)
 
 ---
